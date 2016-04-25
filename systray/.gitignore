@@ -1,5 +1,3 @@
-*.snap
-*.swp
 parts/*
 !parts/plugins/
 __pycache__/
