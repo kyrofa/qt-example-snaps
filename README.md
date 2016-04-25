@@ -1,2 +1,4 @@
-# qt-example-snaps
-A collection of Qt examples packaged as snaps
+# Qt Example Snaps
+
+A collection of Qt examples packaged as snaps. For more information about
+individual examples, see their READMEs.

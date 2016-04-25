@@ -1,0 +1,4 @@
+[Desktop Entry]
+Name=Qt Systray Example
+Exec=systray
+Type=Application
