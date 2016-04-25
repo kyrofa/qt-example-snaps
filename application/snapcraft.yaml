@@ -1,0 +1,22 @@
+name: application
+version: 1
+summary: Qt Application Example
+description: A simple text editor
+
+apps:
+  application:
+    command: qt5-launch application
+    plugs:
+      - unity7
+      - home
+
+parts:
+  application:
+    plugin: qmake
+    source: src/
+    build-packages:
+      - qtbase5-dev
+    stage-packages:
+      # Here for the plugins-- they're not linked in automatically.
+      - libqt5gui5
+    after: [qt5conf] # A wiki part
